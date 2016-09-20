@@ -13,6 +13,7 @@
 
             Print(2, 9, "Commands:");
             Print(2, 10, "t: teleport");
+            Print(2, 11, "n: new game");
 
             Print(2, 13, "Legend:");
             Print(2, 15, "[c:r f:red][c:sg 12] [c:r f:default]: robot");
