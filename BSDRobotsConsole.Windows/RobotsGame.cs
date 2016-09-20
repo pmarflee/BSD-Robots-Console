@@ -86,7 +86,7 @@ namespace BSDRobotsConsole.Windows
 
         private void PlayerMoveEvent(object sender, Events.PlayerMoveEventArgs e)
         {
-            var newPosition = _player.Position += e.Direction;
+            var newPosition = _player.Position + e.Direction;
 
             if (!IsWalkable(newPosition)) return;
 
