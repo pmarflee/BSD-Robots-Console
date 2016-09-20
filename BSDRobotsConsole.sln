@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BSDRobotsConsole.Core", "BSDRobotsConsole.Core\BSDRobotsConsole.Core.shproj", "{FC3740BC-F307-4B61-B1D5-78C07820873D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSDRobotsConsole.Windows", "BSDRobotsConsole.Windows\BSDRobotsConsole.Windows.csproj", "{2831A2FB-CE97-4422-A0B9-FBB20C6584D5}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BSDRobotsConsole.Core\BSDRobotsConsole.Core.projitems*{2831a2fb-ce97-4422-a0b9-fbb20c6584d5}*SharedItemsImports = 4
+		BSDRobotsConsole.Core\BSDRobotsConsole.Core.projitems*{fc3740bc-f307-4b61-b1d5-78c07820873d}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2831A2FB-CE97-4422-A0B9-FBB20C6584D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2831A2FB-CE97-4422-A0B9-FBB20C6584D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2831A2FB-CE97-4422-A0B9-FBB20C6584D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2831A2FB-CE97-4422-A0B9-FBB20C6584D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
