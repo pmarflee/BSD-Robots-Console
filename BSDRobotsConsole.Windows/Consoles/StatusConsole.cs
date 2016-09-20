@@ -23,22 +23,22 @@
 
         public void PrintLevel(int level)
         {
-            Print(2, 19, $"Level: {level}");
+            Print(2, 19, $"Level: {level}     ");
         }
 
         public void PrintRobots(int robots)
         {
-            Print(2, 20, $"Robots: {robots}");
+            Print(2, 20, $"Robots: {robots}    ");
         }
 
         public void PrintScore(int score)
         {
-            Print(2, 21, $"Score: {score}");
+            Print(2, 21, $"Score: {score}    ");
         }
 
         public void PrintTeleports(int teleports)
         {
-            Print(2, 22, $"Teleports: {teleports}");
+            Print(2, 22, $"Teleports: {teleports}    ");
         }
     }
 }
