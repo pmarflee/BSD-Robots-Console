@@ -10,7 +10,9 @@ namespace BSDRobotsConsole.Windows.GameObjects
 
         protected override void KillInternal()
         {
-            Animation.CurrentFrame[0].GlyphIndex = 15;
+            var frame = Animation.CurrentFrame[0];
+            frame.GlyphIndex = 15;
+            frame.Foreground = Color.Purple;
 
             base.KillInternal();
         }
